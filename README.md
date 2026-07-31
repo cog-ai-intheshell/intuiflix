@@ -14,6 +14,8 @@ de streaming. Elle fonctionne sans framework côté client : HTML, CSS et
 JavaScript natifs, accompagnés d’un serveur Python standard pour les profils et
 la persistance.
 
+![Catalogue des dix épreuves Intuiflix](public/assets/intuiflix-interface.jpg)
+
 ## Sommaire
 
 - [Objectifs](#objectifs)
@@ -311,6 +313,8 @@ intuiflix/
 │   ├── history.json             Historique local, ignoré par Git
 │   └── users.json               Profils autorisés
 ├── public/
+│   ├── assets/
+│   │   └── intuiflix-interface.jpg
 │   ├── data/
 │   │   └── games.json           Catalogue et consignes
 │   ├── js/
