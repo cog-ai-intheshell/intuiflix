@@ -1,0 +1,2409 @@
+{
+  "completeness": {
+    "reasons": [],
+    "status": "complete"
+  },
+  "edges": [
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "from": "component-state:button:active",
+      "kind": "configures",
+      "to": "component:button"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "from": "component-state:button:default",
+      "kind": "configures",
+      "to": "component:button"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "from": "component-state:button:disabled",
+      "kind": "configures",
+      "to": "component:button"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "from": "component-state:button:focus-visible",
+      "kind": "configures",
+      "to": "component:button"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "from": "component-state:button:hover",
+      "kind": "configures",
+      "to": "component:button"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "from": "component-state:button:loading",
+      "kind": "configures",
+      "to": "component:button"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/feature-card.json"
+        }
+      ],
+      "from": "component-state:feature-card:default",
+      "kind": "configures",
+      "to": "component:feature-card"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/feature-card.json"
+        }
+      ],
+      "from": "component-state:feature-card:focus-within",
+      "kind": "configures",
+      "to": "component:feature-card"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/feature-card.json"
+        }
+      ],
+      "from": "component-state:feature-card:hover",
+      "kind": "configures",
+      "to": "component:feature-card"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "from": "component:button",
+      "kind": "implements",
+      "to": "file:public/index.html"
+    },
+    {
+      "analysis": "html-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 9,
+          "line": 18,
+          "path": "public/index.html"
+        }
+      ],
+      "from": "component:button",
+      "kind": "renders",
+      "to": "file:public/index.html"
+    },
+    {
+      "analysis": "component-contract",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/components/feature-card.json"
+        }
+      ],
+      "from": "component:feature-card",
+      "kind": "implements",
+      "to": "file:public/index.html"
+    },
+    {
+      "analysis": "html-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 9,
+          "line": 162,
+          "path": "public/index.html"
+        }
+      ],
+      "from": "component:feature-card",
+      "kind": "renders",
+      "to": "file:public/index.html"
+    },
+    {
+      "analysis": "import-graph",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 1,
+          "line": 1,
+          "path": "public/index.html"
+        }
+      ],
+      "from": "file:public/index.html",
+      "kind": "reachable-from",
+      "to": "route:/public/"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.brand.active.background",
+      "kind": "configures",
+      "to": "component-state:button:active"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 163,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.brand.active.background",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.brand.default.background",
+      "kind": "configures",
+      "to": "component-state:button:default"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 155,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.brand.default.background",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.brand.hover.background",
+      "kind": "configures",
+      "to": "component-state:button:hover"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 159,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.brand.hover.background",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.focus.ring",
+      "kind": "configures",
+      "to": "component-state:button:focus-visible"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 51,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.focus.ring",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.primary.active.background",
+      "kind": "configures",
+      "to": "component-state:button:active"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 150,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.primary.active.background",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.primary.default.background",
+      "kind": "configures",
+      "to": "component-state:button:default"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 142,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.primary.default.background",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.primary.hover.background",
+      "kind": "configures",
+      "to": "component-state:button:hover"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 146,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.primary.hover.background",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.primary.text",
+      "kind": "configures",
+      "to": "component-state:button:default"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 141,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.primary.text",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:button.radius",
+      "kind": "configures",
+      "to": "component-state:button:default"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 111,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:button.radius",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:card.background",
+      "kind": "configures",
+      "to": "component-state:feature-card:default"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 801,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:card.background",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:card.border",
+      "kind": "configures",
+      "to": "component-state:feature-card:default"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 798,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:card.border",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-metadata",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:card.radius",
+      "kind": "configures",
+      "to": "component-state:feature-card:default"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 799,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:card.radius",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.action.brand.active",
+      "kind": "aliases",
+      "to": "token:button.brand.active.background"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.action.brand.background",
+      "kind": "aliases",
+      "to": "token:button.brand.default.background"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.action.brand.hover",
+      "kind": "aliases",
+      "to": "token:button.brand.hover.background"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.action.cinematic.background",
+      "kind": "aliases",
+      "to": "token:button.primary.default.background"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.action.cinematic.hover",
+      "kind": "aliases",
+      "to": "token:button.primary.hover.background"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.action.cinematic.text",
+      "kind": "aliases",
+      "to": "token:button.primary.text"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.amber.400",
+      "kind": "aliases",
+      "to": "token:color.signal.warning"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.blue.400",
+      "kind": "aliases",
+      "to": "token:color.data.blue"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 186,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.border.strong",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 180,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.border.subtle",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.border.subtle",
+      "kind": "aliases",
+      "to": "token:card.border"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 314,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.brand.highlight",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 66,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.brand.signature",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 431,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.data.blue",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 290,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.data.violet",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.focus.ring",
+      "kind": "aliases",
+      "to": "token:button.focus.ring"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.green.400",
+      "kind": "aliases",
+      "to": "token:color.signal.success"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 2021,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.ink.650",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.ink.650",
+      "kind": "aliases",
+      "to": "token:color.border.strong"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 928,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.ink.800",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.ink.800",
+      "kind": "aliases",
+      "to": "token:color.border.subtle"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.ink.850",
+      "kind": "aliases",
+      "to": "token:color.surface.elevated"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.ink.900",
+      "kind": "aliases",
+      "to": "token:color.surface.subtle"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.ink.950",
+      "kind": "aliases",
+      "to": "token:color.action.cinematic.text"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.ink.950",
+      "kind": "aliases",
+      "to": "token:color.surface.canvas"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 154,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.neutral.0",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.neutral.0",
+      "kind": "aliases",
+      "to": "token:color.action.cinematic.hover"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.neutral.100",
+      "kind": "aliases",
+      "to": "token:color.action.cinematic.background"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.neutral.100",
+      "kind": "aliases",
+      "to": "token:color.text.primary"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.neutral.300",
+      "kind": "aliases",
+      "to": "token:button.primary.active.background"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.neutral.300",
+      "kind": "aliases",
+      "to": "token:color.text.secondary"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.neutral.500",
+      "kind": "aliases",
+      "to": "token:color.text.muted"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.red.400",
+      "kind": "aliases",
+      "to": "token:color.action.brand.hover"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.red.400",
+      "kind": "aliases",
+      "to": "token:color.brand.highlight"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.red.400",
+      "kind": "aliases",
+      "to": "token:color.focus.ring"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.red.400",
+      "kind": "aliases",
+      "to": "token:color.signal.danger"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.red.500",
+      "kind": "aliases",
+      "to": "token:color.action.brand.background"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.red.500",
+      "kind": "aliases",
+      "to": "token:color.brand.signature"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.red.700",
+      "kind": "aliases",
+      "to": "token:color.action.brand.active"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 920,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.signal.danger",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 276,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.signal.success",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 727,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.signal.warning",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 7,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.surface.canvas",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 307,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.surface.elevated",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:color.surface.elevated",
+      "kind": "aliases",
+      "to": "token:card.background"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 363,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.surface.subtle",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 251,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.text.muted",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 28,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.text.primary",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 179,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:color.text.secondary",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:color.violet.400",
+      "kind": "aliases",
+      "to": "token:color.data.violet"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 114,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:duration.fast",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 76,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:duration.screen",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:font.family.display",
+      "kind": "aliases",
+      "to": "token:text.display.family"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:font.family.sans",
+      "kind": "aliases",
+      "to": "token:text.body.family"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:font.size.body",
+      "kind": "aliases",
+      "to": "token:text.body.size"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:font.weight.black",
+      "kind": "aliases",
+      "to": "token:text.display.weight"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:font.weight.regular",
+      "kind": "aliases",
+      "to": "token:text.body.weight"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:font.weight.semibold",
+      "kind": "aliases",
+      "to": "token:text.label.weight"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "from": "token:line.height.body",
+      "kind": "aliases",
+      "to": "token:text.body.line-height"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 306,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:radius.card",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:radius.card",
+      "kind": "aliases",
+      "to": "token:card.radius"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 3169,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:radius.control",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "token-resolver",
+      "confidence": 1,
+      "evidence": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "from": "token:radius.control",
+      "kind": "aliases",
+      "to": "token:button.radius"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 1372,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:radius.panel",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 275,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:radius.pill",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 308,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:shadow.panel",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 8,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:text.body.family",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 10,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:text.body.line-height",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 9,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:text.body.size",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 11,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:text.body.weight",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 85,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:text.display.family",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 87,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:text.display.weight",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    },
+    {
+      "analysis": "css-parser",
+      "confidence": 1,
+      "evidence": [
+        {
+          "column": 3,
+          "line": 112,
+          "path": "public/styles.css"
+        }
+      ],
+      "from": "token:text.label.weight",
+      "kind": "consumed-by",
+      "to": "file:public/styles.css"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "component-state:button:active",
+      "kind": "component-state",
+      "label": "button.active",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component-state:button:default",
+      "kind": "component-state",
+      "label": "button.default",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component-state:button:disabled",
+      "kind": "component-state",
+      "label": "button.disabled",
+      "provenance": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component-state:button:focus-visible",
+      "kind": "component-state",
+      "label": "button.focus-visible",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component-state:button:hover",
+      "kind": "component-state",
+      "label": "button.hover",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component-state:button:loading",
+      "kind": "component-state",
+      "label": "button.loading",
+      "provenance": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component-state:feature-card:default",
+      "kind": "component-state",
+      "label": "feature-card.default",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component-state:feature-card:focus-within",
+      "kind": "component-state",
+      "label": "feature-card.focus-within",
+      "provenance": [
+        {
+          "path": ".design-system/components/feature-card.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component-state:feature-card:hover",
+      "kind": "component-state",
+      "label": "feature-card.hover",
+      "provenance": [
+        {
+          "path": ".design-system/components/feature-card.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component:button",
+      "kind": "component",
+      "label": "Cinematic button",
+      "provenance": [
+        {
+          "path": ".design-system/components/button.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "component:feature-card",
+      "kind": "component",
+      "label": "Feature card",
+      "provenance": [
+        {
+          "path": ".design-system/components/feature-card.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "file:public/index.html",
+      "kind": "source-file",
+      "label": "public/index.html",
+      "provenance": [
+        {
+          "path": "public/index.html"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "file:public/js/analysis.js",
+      "kind": "source-file",
+      "label": "public/js/analysis.js",
+      "provenance": [
+        {
+          "path": "public/js/analysis.js"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "file:public/js/app.js",
+      "kind": "source-file",
+      "label": "public/js/app.js",
+      "provenance": [
+        {
+          "path": "public/js/app.js"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "file:public/js/game.js",
+      "kind": "source-file",
+      "label": "public/js/game.js",
+      "provenance": [
+        {
+          "path": "public/js/game.js"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "file:public/styles.css",
+      "kind": "source-file",
+      "label": "public/styles.css",
+      "provenance": [
+        {
+          "path": "public/styles.css"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "route:/public/",
+      "kind": "route-screen",
+      "label": "/public/",
+      "provenance": [
+        {
+          "column": 1,
+          "line": 1,
+          "path": "public/index.html"
+        }
+      ],
+      "status": "resolved"
+    },
+    {
+      "id": "token:button.brand.active.background",
+      "kind": "component-token",
+      "label": "button.brand.active.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:button.brand.default.background",
+      "kind": "component-token",
+      "label": "button.brand.default.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:button.brand.hover.background",
+      "kind": "component-token",
+      "label": "button.brand.hover.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:button.focus.ring",
+      "kind": "component-token",
+      "label": "button.focus.ring",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:button.primary.active.background",
+      "kind": "component-token",
+      "label": "button.primary.active.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:button.primary.default.background",
+      "kind": "component-token",
+      "label": "button.primary.default.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:button.primary.hover.background",
+      "kind": "component-token",
+      "label": "button.primary.hover.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:button.primary.text",
+      "kind": "component-token",
+      "label": "button.primary.text",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:button.radius",
+      "kind": "component-token",
+      "label": "button.radius",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:card.background",
+      "kind": "component-token",
+      "label": "card.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:card.border",
+      "kind": "component-token",
+      "label": "card.border",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:card.radius",
+      "kind": "component-token",
+      "label": "card.radius",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/components.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.action.brand.active",
+      "kind": "semantic-token",
+      "label": "color.action.brand.active",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.action.brand.background",
+      "kind": "semantic-token",
+      "label": "color.action.brand.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.action.brand.hover",
+      "kind": "semantic-token",
+      "label": "color.action.brand.hover",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.action.cinematic.background",
+      "kind": "semantic-token",
+      "label": "color.action.cinematic.background",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.action.cinematic.hover",
+      "kind": "semantic-token",
+      "label": "color.action.cinematic.hover",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.action.cinematic.text",
+      "kind": "semantic-token",
+      "label": "color.action.cinematic.text",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.amber.400",
+      "kind": "primitive-token",
+      "label": "color.amber.400",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.blue.400",
+      "kind": "primitive-token",
+      "label": "color.blue.400",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.border.strong",
+      "kind": "semantic-token",
+      "label": "color.border.strong",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.border.subtle",
+      "kind": "semantic-token",
+      "label": "color.border.subtle",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.brand.highlight",
+      "kind": "semantic-token",
+      "label": "color.brand.highlight",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.brand.signature",
+      "kind": "semantic-token",
+      "label": "color.brand.signature",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.data.blue",
+      "kind": "semantic-token",
+      "label": "color.data.blue",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.data.violet",
+      "kind": "semantic-token",
+      "label": "color.data.violet",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.focus.ring",
+      "kind": "semantic-token",
+      "label": "color.focus.ring",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.green.400",
+      "kind": "primitive-token",
+      "label": "color.green.400",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.ink.650",
+      "kind": "primitive-token",
+      "label": "color.ink.650",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.ink.800",
+      "kind": "primitive-token",
+      "label": "color.ink.800",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.ink.850",
+      "kind": "primitive-token",
+      "label": "color.ink.850",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.ink.900",
+      "kind": "primitive-token",
+      "label": "color.ink.900",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.ink.950",
+      "kind": "primitive-token",
+      "label": "color.ink.950",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.neutral.0",
+      "kind": "primitive-token",
+      "label": "color.neutral.0",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.neutral.100",
+      "kind": "primitive-token",
+      "label": "color.neutral.100",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.neutral.300",
+      "kind": "primitive-token",
+      "label": "color.neutral.300",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.neutral.500",
+      "kind": "primitive-token",
+      "label": "color.neutral.500",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.red.400",
+      "kind": "primitive-token",
+      "label": "color.red.400",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.red.500",
+      "kind": "primitive-token",
+      "label": "color.red.500",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.red.700",
+      "kind": "primitive-token",
+      "label": "color.red.700",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.signal.danger",
+      "kind": "semantic-token",
+      "label": "color.signal.danger",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.signal.success",
+      "kind": "semantic-token",
+      "label": "color.signal.success",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.signal.warning",
+      "kind": "semantic-token",
+      "label": "color.signal.warning",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.surface.canvas",
+      "kind": "semantic-token",
+      "label": "color.surface.canvas",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.surface.elevated",
+      "kind": "semantic-token",
+      "label": "color.surface.elevated",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.surface.subtle",
+      "kind": "semantic-token",
+      "label": "color.surface.subtle",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.text.muted",
+      "kind": "semantic-token",
+      "label": "color.text.muted",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.text.primary",
+      "kind": "semantic-token",
+      "label": "color.text.primary",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.text.secondary",
+      "kind": "semantic-token",
+      "label": "color.text.secondary",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:color.violet.400",
+      "kind": "primitive-token",
+      "label": "color.violet.400",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:duration.fast",
+      "kind": "primitive-token",
+      "label": "duration.fast",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:duration.screen",
+      "kind": "primitive-token",
+      "label": "duration.screen",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:font.family.display",
+      "kind": "primitive-token",
+      "label": "font.family.display",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:font.family.sans",
+      "kind": "primitive-token",
+      "label": "font.family.sans",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:font.size.body",
+      "kind": "primitive-token",
+      "label": "font.size.body",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:font.weight.black",
+      "kind": "primitive-token",
+      "label": "font.weight.black",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:font.weight.regular",
+      "kind": "primitive-token",
+      "label": "font.weight.regular",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:font.weight.semibold",
+      "kind": "primitive-token",
+      "label": "font.weight.semibold",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:line.height.body",
+      "kind": "primitive-token",
+      "label": "line.height.body",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:radius.card",
+      "kind": "primitive-token",
+      "label": "radius.card",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:radius.control",
+      "kind": "primitive-token",
+      "label": "radius.control",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:radius.panel",
+      "kind": "primitive-token",
+      "label": "radius.panel",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:radius.pill",
+      "kind": "primitive-token",
+      "label": "radius.pill",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:shadow.panel",
+      "kind": "primitive-token",
+      "label": "shadow.panel",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/primitives.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:text.body.family",
+      "kind": "semantic-token",
+      "label": "text.body.family",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:text.body.line-height",
+      "kind": "semantic-token",
+      "label": "text.body.line-height",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:text.body.size",
+      "kind": "semantic-token",
+      "label": "text.body.size",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:text.body.weight",
+      "kind": "semantic-token",
+      "label": "text.body.weight",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:text.display.family",
+      "kind": "semantic-token",
+      "label": "text.display.family",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:text.display.weight",
+      "kind": "semantic-token",
+      "label": "text.display.weight",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    },
+    {
+      "id": "token:text.label.weight",
+      "kind": "semantic-token",
+      "label": "text.label.weight",
+      "provenance": [
+        {
+          "path": ".design-system/tokens/semantic.json"
+        }
+      ],
+      "status": "stable"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sourceHash": "sha256:01d35479d06e646dc4f47aac77dba802696b62256cf5d6719e263d88c77bc69c",
+  "unresolved": []
+}

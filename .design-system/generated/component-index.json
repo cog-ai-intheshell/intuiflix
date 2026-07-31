@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "accessibility": {
+        "keyboard": [
+          "Enter",
+          "Space"
+        ],
+        "requirements": [
+          "Accessible name is required",
+          "Keyboard focus must remain visible",
+          "Disabled controls must expose the disabled attribute"
+        ],
+        "role": "button"
+      },
+      "api": {
+        "props": [],
+        "slots": [
+          "label",
+          "leadingIcon",
+          "trailingIcon"
+        ],
+        "states": [
+          "default",
+          "hover",
+          "focus-visible",
+          "active",
+          "disabled",
+          "loading"
+        ],
+        "variants": [
+          "primary",
+          "brand",
+          "secondary",
+          "ghost"
+        ]
+      },
+      "description": "Triggers primary, branded, secondary and quiet actions.",
+      "examples": [],
+      "files": [
+        "public/index.html"
+      ],
+      "id": "button",
+      "implementation": {
+        "adapter": "css-html",
+        "exportName": null,
+        "path": "public/index.html"
+      },
+      "name": "Cinematic button",
+      "routes": [
+        "route:/public/"
+      ],
+      "status": "stable",
+      "tokens": [
+        "button.brand.active.background",
+        "button.brand.default.background",
+        "button.brand.hover.background",
+        "button.focus.ring",
+        "button.primary.active.background",
+        "button.primary.default.background",
+        "button.primary.hover.background",
+        "button.primary.text",
+        "button.radius"
+      ]
+    },
+    {
+      "accessibility": {
+        "keyboard": [],
+        "requirements": [
+          "Heading levels remain sequential",
+          "Color is never the only carrier of status"
+        ],
+        "role": "group"
+      },
+      "api": {
+        "props": [],
+        "slots": [
+          "eyebrow",
+          "title",
+          "body",
+          "visual"
+        ],
+        "states": [
+          "default",
+          "hover",
+          "focus-within"
+        ],
+        "variants": [
+          "catalog",
+          "metric",
+          "insight"
+        ]
+      },
+      "description": "Presents a mini-game, insight or result in a raised cinematic panel.",
+      "examples": [],
+      "files": [
+        "public/index.html"
+      ],
+      "id": "feature-card",
+      "implementation": {
+        "adapter": "css-html",
+        "exportName": null,
+        "path": "public/index.html"
+      },
+      "name": "Feature card",
+      "routes": [
+        "route:/public/"
+      ],
+      "status": "stable",
+      "tokens": [
+        "card.background",
+        "card.border",
+        "card.radius"
+      ]
+    }
+  ],
+  "generatorVersion": "0.1.0",
+  "schemaVersion": "1.0.0",
+  "sourceHash": "sha256:01d35479d06e646dc4f47aac77dba802696b62256cf5d6719e263d88c77bc69c"
+}

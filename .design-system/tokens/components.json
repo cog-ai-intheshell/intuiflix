@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "tokens": [
+    {
+      "id": "button.primary.default.background",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.action.cinematic.background}",
+      "role": "Primary button background",
+      "description": "Default light cinematic button.",
+      "status": "stable",
+      "aliases": ["color.action.cinematic.background"],
+      "extensions": {"componentId": "button", "state": "default"}
+    },
+    {
+      "id": "button.primary.hover.background",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.action.cinematic.hover}",
+      "role": "Primary button hover",
+      "description": "Primary button hover background.",
+      "status": "stable",
+      "aliases": ["color.action.cinematic.hover"],
+      "extensions": {"componentId": "button", "state": "hover"}
+    },
+    {
+      "id": "button.primary.active.background",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.neutral.300}",
+      "role": "Primary button active",
+      "description": "Primary button active background.",
+      "status": "stable",
+      "aliases": ["color.neutral.300"],
+      "extensions": {"componentId": "button", "state": "active"}
+    },
+    {
+      "id": "button.primary.text",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.action.cinematic.text}",
+      "role": "Primary button text",
+      "description": "Primary button foreground.",
+      "status": "stable",
+      "aliases": ["color.action.cinematic.text"],
+      "extensions": {"componentId": "button", "state": "default"}
+    },
+    {
+      "id": "button.brand.default.background",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.action.brand.background}",
+      "role": "Brand button background",
+      "description": "Default red brand button.",
+      "status": "stable",
+      "aliases": ["color.action.brand.background"],
+      "extensions": {"componentId": "button", "state": "default"}
+    },
+    {
+      "id": "button.brand.hover.background",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.action.brand.hover}",
+      "role": "Brand button hover",
+      "description": "Red button hover background.",
+      "status": "stable",
+      "aliases": ["color.action.brand.hover"],
+      "extensions": {"componentId": "button", "state": "hover"}
+    },
+    {
+      "id": "button.brand.active.background",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.action.brand.active}",
+      "role": "Brand button active",
+      "description": "Red button pressed background.",
+      "status": "stable",
+      "aliases": ["color.action.brand.active"],
+      "extensions": {"componentId": "button", "state": "active"}
+    },
+    {
+      "id": "button.focus.ring",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.focus.ring}",
+      "role": "Button focus",
+      "description": "Keyboard focus ring.",
+      "status": "stable",
+      "aliases": ["color.focus.ring"],
+      "extensions": {"componentId": "button", "state": "focus-visible"}
+    },
+    {
+      "id": "button.radius",
+      "kind": "dimension",
+      "tier": "component",
+      "value": "{radius.control}",
+      "role": "Button radius",
+      "description": "Button corner radius.",
+      "status": "stable",
+      "aliases": ["radius.control"],
+      "extensions": {"componentId": "button", "state": "default"}
+    },
+    {
+      "id": "card.background",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.surface.elevated}",
+      "role": "Card background",
+      "description": "Default feature card background.",
+      "status": "stable",
+      "aliases": ["color.surface.elevated"],
+      "extensions": {"componentId": "feature-card", "state": "default"}
+    },
+    {
+      "id": "card.border",
+      "kind": "color",
+      "tier": "component",
+      "value": "{color.border.subtle}",
+      "role": "Card border",
+      "description": "Default feature card border.",
+      "status": "stable",
+      "aliases": ["color.border.subtle"],
+      "extensions": {"componentId": "feature-card", "state": "default"}
+    },
+    {
+      "id": "card.radius",
+      "kind": "dimension",
+      "tier": "component",
+      "value": "{radius.card}",
+      "role": "Card radius",
+      "description": "Default feature card radius.",
+      "status": "stable",
+      "aliases": ["radius.card"],
+      "extensions": {"componentId": "feature-card", "state": "default"}
+    }
+  ]
+}

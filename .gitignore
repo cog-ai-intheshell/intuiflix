@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.tmp
+
+# Données de parties locales
+data/history.json
+
+# Projet de référence, non nécessaire à Intuiflix
+split-second-main/

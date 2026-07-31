@@ -1,0 +1,91 @@
+{
+  "adapters": [
+    {
+      "id": "css-html",
+      "version": "0.1.0"
+    }
+  ],
+  "generatorVersion": "0.1.0",
+  "inputs": [
+    {
+      "hash": "sha256:148da0b293d2a83d548b14fea391b0cc1a3c71e51d445d61ec5c3bee88e1bf1a",
+      "path": ".design-system/components/button.json"
+    },
+    {
+      "hash": "sha256:2505deefb33f19f534002334166225f986968b18ca888852a8c5e7363830e1b7",
+      "path": ".design-system/components/feature-card.json"
+    },
+    {
+      "hash": "sha256:0d22a1fcf57fc7e46babaeaa229726ccdfb7ee64d3ac1b50e10af58c54a4a1ec",
+      "path": ".design-system/config.json"
+    },
+    {
+      "hash": "sha256:33ae55077d439800f96c16e771433a98492bcf9913b3dd1374b1eb42e032fb75",
+      "path": ".design-system/exceptions/approved.json"
+    },
+    {
+      "hash": "sha256:74a48aead6fda0bcdbd5d0ce9ea5f6c415fda1d1c2b338398150932874c96da5",
+      "path": ".design-system/tokens/components.json"
+    },
+    {
+      "hash": "sha256:6f7c20e813adf413cff99ac6148f7fc48f700d1d5190cfd24bfdbefa5d8eb47c",
+      "path": ".design-system/tokens/primitives.json"
+    },
+    {
+      "hash": "sha256:bbcabb1f532657431cd51084b0c3070ef4df038a79ab2bc3fb392f901a539a86",
+      "path": ".design-system/tokens/semantic.json"
+    },
+    {
+      "hash": "sha256:040760af27b595646cf877449980845404cc81d77d45b3048bc4d289f421bf07",
+      "path": "public/index.html"
+    },
+    {
+      "hash": "sha256:cc27760c1c0c706ee9cc65acf17dd9128f5726e7bc006845c485b83998ea8bc7",
+      "path": "public/js/analysis.js"
+    },
+    {
+      "hash": "sha256:a78e3eb421a4651b9b9fa6283b201ed978b91ae33527500310e16c3854c61c38",
+      "path": "public/js/app.js"
+    },
+    {
+      "hash": "sha256:beb4c6013225c8a99cf378a79477e8eead6ae552cba548cab3375fc8e67ed365",
+      "path": "public/js/game.js"
+    },
+    {
+      "hash": "sha256:232e41227b6f4cb313b147b2cf4145f5e95fa17233097605d8fbc273fdb74c99",
+      "path": "public/styles.css"
+    }
+  ],
+  "outputs": [
+    {
+      "hash": "sha256:87e2b699ad18710e00ab41636ba1812eff1df8fdc79116162fb49335b3826fce",
+      "path": ".design-system/generated/catalog/catalog.css"
+    },
+    {
+      "hash": "sha256:d283aa5daf30edf080c68b222f298338372f8f7a8ad50d2237e35a43ce69bd35",
+      "path": ".design-system/generated/catalog/catalog.js"
+    },
+    {
+      "hash": "sha256:bb66afcfd376c8f8ed7730c0b9ba6f38988cd7a5092ce8d4eafa74f491de67cd",
+      "path": ".design-system/generated/catalog/index.html"
+    },
+    {
+      "hash": "sha256:426e761c63e81d98da5cc8fa8081d8cb7fbe40fc6bd965e7699f37f9ccc9bd02",
+      "path": ".design-system/generated/component-index.json"
+    },
+    {
+      "hash": "sha256:62998986cbc7a933ffca4075f6860003709971d36cbe91f885ce60d4828d02d3",
+      "path": ".design-system/generated/impact-graph.json"
+    },
+    {
+      "hash": "sha256:5f58e8bc53f3294b4da953db96e00b0039bc2a2600c87eb43b747f428e253d31",
+      "path": ".design-system/generated/tokens.css"
+    },
+    {
+      "hash": "sha256:60363f68557a86bfcd2329506496abc3e183aaf1512f42082981c81543fcf7dd",
+      "path": ".design-system/generated/usage-map.json"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sourceHash": "sha256:01d35479d06e646dc4f47aac77dba802696b62256cf5d6719e263d88c77bc69c"
+}

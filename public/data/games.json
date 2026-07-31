@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "id": "cards",
+      "number": "01",
+      "title": "Cartes cachées",
+      "eyebrow": "Probabilité simple",
+      "tagline": "Choisir sans inventer un motif.",
+      "description": "Des cartes identiques cachent des issues rouges ou vertes. Leur position ne donne aucun indice : seule la proportion annoncée décrit tes chances.",
+      "instructions": [
+        "Observe le nombre de cartes rouges annoncé avant le tirage.",
+        "Choisis une carte en moins de 10 secondes.",
+        "Toutes les cartes se retournent pour révéler l’ensemble du tirage."
+      ],
+      "measures": "Intuition probabiliste",
+      "duration": "10 s",
+      "illustration": "cards"
+    },
+    {
+      "id": "dice",
+      "number": "02",
+      "title": "Somme invisible",
+      "eyebrow": "Distribution",
+      "tagline": "Sentir le centre sans calculer.",
+      "description": "Plusieurs dés ont déjà été lancés, mais leur résultat reste caché. Tu dois sentir si leur somme tombe sous, sur ou au-dessus d’une valeur de référence.",
+      "instructions": [
+        "Repère le nombre de dés, leurs faces et la valeur de référence.",
+        "Choisis inférieur, égal ou supérieur sans chercher à tout calculer.",
+        "Les dés roulent et révèlent ensuite la somme réelle."
+      ],
+      "measures": "Lecture des distributions",
+      "duration": "10 s",
+      "illustration": "dice"
+    },
+    {
+      "id": "bag",
+      "number": "03",
+      "title": "Sac de couleurs",
+      "eyebrow": "Fréquences",
+      "tagline": "Probable ne signifie jamais certain.",
+      "description": "La composition du sac est visible, mais la bille tirée reste cachée. La couleur la plus présente est souvent le meilleur choix, jamais une garantie.",
+      "instructions": [
+        "Lis rapidement la répartition des couleurs dans le sac.",
+        "Choisis la couleur qui te semble la plus susceptible de sortir.",
+        "La bille quitte le sac et révèle le résultat du tirage."
+      ],
+      "measures": "Sens des fréquences",
+      "duration": "10 s",
+      "illustration": "bag"
+    },
+    {
+      "id": "boxes",
+      "number": "04",
+      "title": "La meilleure boîte",
+      "eyebrow": "Comparaison de ratios",
+      "tagline": "Résister aux grands nombres.",
+      "description": "Deux boîtes proposent des quantités et des tailles différentes. Le plus grand nombre de gains n’est pas toujours la meilleure proportion.",
+      "instructions": [
+        "Observe les gains possibles et le nombre total d’éléments dans chaque boîte.",
+        "Choisis la boîte qui offre la meilleure chance, pas le plus grand nombre brut.",
+        "Les deux pourcentages apparaissent avant le verdict."
+      ],
+      "measures": "Comparaison de proportions",
+      "duration": "10 s",
+      "illustration": "boxes"
+    },
+    {
+      "id": "dots",
+      "number": "05",
+      "title": "Nuage de points",
+      "eyebrow": "Estimation éclair",
+      "tagline": "Voir une quantité sans compter.",
+      "description": "Un nuage de points apparaît brièvement puis disparaît. L’épreuve teste ton impression globale d’une quantité, pas ta vitesse de comptage.",
+      "instructions": [
+        "Regarde l’ensemble du nuage dès son apparition.",
+        "Ne compte pas les points un par un.",
+        "Choisis l’estimation la plus proche avant que le nombre réel réapparaisse."
+      ],
+      "measures": "Estimation numérique",
+      "duration": "10 s",
+      "illustration": "dots"
+    },
+    {
+      "id": "fireflies",
+      "number": "06",
+      "title": "Les lucioles",
+      "eyebrow": "Signal collectif",
+      "tagline": "Lire une direction dans le chaos.",
+      "description": "Un essaim dérive dans l’obscurité. Chaque luciole bouge différemment, mais le mouvement du groupe laisse deviner une sortie probable.",
+      "instructions": [
+        "Observe le mouvement d’ensemble plutôt qu’une luciole isolée.",
+        "Anticipe une sortie à gauche, au centre ou à droite.",
+        "L’essaim traverse ensuite la véritable ouverture."
+      ],
+      "measures": "Détection de tendance",
+      "duration": "10 s",
+      "illustration": "fireflies"
+    },
+    {
+      "id": "hands",
+      "number": "07",
+      "title": "Quelle main ?",
+      "eyebrow": "Comportement implicite",
+      "tagline": "Apprendre les habitudes d’un personnage.",
+      "description": "Le personnage cache un objet dans une main. Ses choix précédents forment une habitude imparfaite qui peut aussi évoluer au fil de la partie.",
+      "instructions": [
+        "Regarde l’historique récent affiché au-dessus du personnage.",
+        "Choisis la main gauche ou droite selon l’impression que son comportement te laisse.",
+        "La main contenant l’objet se lève avant le résultat."
+      ],
+      "measures": "Apprentissage implicite",
+      "duration": "10 s",
+      "illustration": "hands"
+    },
+    {
+      "id": "doors",
+      "number": "08",
+      "title": "Les trois portes",
+      "eyebrow": "Apprentissage caché",
+      "tagline": "Sentir quelle option devient généreuse.",
+      "description": "Chaque porte possède une générosité cachée. Les petites lumières racontent les résultats récents, mais une bonne porte peut parfois rester vide.",
+      "instructions": [
+        "Lis l’historique lumineux sous les trois portes.",
+        "Choisis celle dont le signal te paraît le plus régulier.",
+        "La porte sélectionnée s’ouvre et révèle immédiatement son issue."
+      ],
+      "measures": "Adaptation aux fréquences",
+      "duration": "10 s",
+      "illustration": "doors"
+    },
+    {
+      "id": "path",
+      "number": "09",
+      "title": "Le chemin vivant",
+      "eyebrow": "Flux probable",
+      "tagline": "Suivre la respiration d’un système.",
+      "description": "Trois branches vivantes n’offrent pas le même passage. Leur largeur et leur respiration suggèrent un flux sans déterminer totalement la trajectoire.",
+      "instructions": [
+        "Observe la largeur et le mouvement des trois branches.",
+        "Choisis la zone où la bille te semble la plus susceptible d’arriver.",
+        "La bille parcourt entièrement le chemin réel avant le verdict."
+      ],
+      "measures": "Intuition des flux",
+      "duration": "10 s",
+      "illustration": "path"
+    },
+    {
+      "id": "risk",
+      "number": "10",
+      "title": "Continuer ou partir",
+      "eyebrow": "Décision sous tension",
+      "tagline": "Trouver son seuil avant l’effondrement.",
+      "description": "La récompense grandit à chaque palier, tandis que la tour devient moins stable. Tu dois sentir quand le gain potentiel ne mérite plus le risque.",
+      "instructions": [
+        "Observe le gain sécurisé, le prochain palier et la tension de la tour.",
+        "Décide de partir avec tes points ou de continuer.",
+        "Si tu continues, la tour révèle si elle tient ou s’effondre."
+      ],
+      "measures": "Gestion du risque",
+      "duration": "10 s",
+      "illustration": "risk"
+    }
+  ]
+}

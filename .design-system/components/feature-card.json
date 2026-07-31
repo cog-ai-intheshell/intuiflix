@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "feature-card",
+  "name": "Feature card",
+  "description": "Presents a mini-game, insight or result in a raised cinematic panel.",
+  "status": "stable",
+  "implementation": {
+    "path": "public/index.html",
+    "exportName": null,
+    "adapter": "css-html"
+  },
+  "api": {
+    "props": [],
+    "slots": ["eyebrow", "title", "body", "visual"],
+    "variants": ["catalog", "metric", "insight"],
+    "states": ["default", "hover", "focus-within"]
+  },
+  "accessibility": {
+    "role": "group",
+    "keyboard": [],
+    "requirements": [
+      "Heading levels remain sequential",
+      "Color is never the only carrier of status"
+    ]
+  },
+  "tokenRefs": ["card.background", "card.border", "card.radius"],
+  "examples": []
+}

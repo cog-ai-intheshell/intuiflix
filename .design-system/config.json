@@ -1,0 +1,24 @@
+{
+  "adapters": [
+    "css-html"
+  ],
+  "allowDynamicAnalysis": false,
+  "auditProfile": "web-default",
+  "componentContractGlob": ".design-system/components/*.json",
+  "generatedDir": ".design-system/generated",
+  "project": {
+    "id": "intuiflix"
+  },
+  "routeFiles": [
+    "public/index.html"
+  ],
+  "schemaVersion": "1.0.0",
+  "sourceRoots": [
+    "public"
+  ],
+  "tokenFiles": [
+    ".design-system/tokens/primitives.json",
+    ".design-system/tokens/semantic.json",
+    ".design-system/tokens/components.json"
+  ]
+}

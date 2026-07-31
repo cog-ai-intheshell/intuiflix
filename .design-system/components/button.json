@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "button",
+  "name": "Cinematic button",
+  "description": "Triggers primary, branded, secondary and quiet actions.",
+  "status": "stable",
+  "implementation": {
+    "path": "public/index.html",
+    "exportName": null,
+    "adapter": "css-html"
+  },
+  "api": {
+    "props": [],
+    "slots": ["label", "leadingIcon", "trailingIcon"],
+    "variants": ["primary", "brand", "secondary", "ghost"],
+    "states": ["default", "hover", "focus-visible", "active", "disabled", "loading"]
+  },
+  "accessibility": {
+    "role": "button",
+    "keyboard": ["Enter", "Space"],
+    "requirements": [
+      "Accessible name is required",
+      "Keyboard focus must remain visible",
+      "Disabled controls must expose the disabled attribute"
+    ]
+  },
+  "tokenRefs": [
+    "button.primary.default.background",
+    "button.primary.hover.background",
+    "button.primary.active.background",
+    "button.primary.text",
+    "button.brand.default.background",
+    "button.brand.hover.background",
+    "button.brand.active.background",
+    "button.focus.ring",
+    "button.radius"
+  ],
+  "examples": []
+}

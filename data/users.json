@@ -1,0 +1,13 @@
+{
+  "users": [
+    {"username": "augustin", "displayName": "Augustin"},
+    {"username": "player2", "displayName": "Player 2"},
+    {"username": "zoldic", "displayName": "Zoldic"},
+    {"username": "lyko", "displayName": "Lyko"},
+    {"username": "achileas", "displayName": "Achileas"},
+    {"username": "ange", "displayName": "Ange"},
+    {"username": "zakaria", "displayName": "Zakaria"},
+    {"username": "tania", "displayName": "Tania"},
+    {"username": "yves", "displayName": "Yves"}
+  ]
+}

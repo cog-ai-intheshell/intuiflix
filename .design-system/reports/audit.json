@@ -1,0 +1,33 @@
+{
+  "coverage": {
+    "adapters": [
+      {
+        "capabilities": {
+          "components": true,
+          "imports": true,
+          "routes": true,
+          "templates": true,
+          "tokens": true
+        },
+        "id": "css-html",
+        "version": "0.1.0"
+      }
+    ],
+    "completeness": "complete",
+    "exceptionAsOf": null,
+    "filesAnalyzed": 5,
+    "usagesDiscovered": 609
+  },
+  "exitCode": 0,
+  "findings": [],
+  "generatorVersion": "0.1.0",
+  "humanReview": [],
+  "schemaVersion": "1.0.0",
+  "sourceHash": "sha256:01d35479d06e646dc4f47aac77dba802696b62256cf5d6719e263d88c77bc69c",
+  "summary": {
+    "errors": 0,
+    "info": 0,
+    "warnings": 0
+  },
+  "unresolved": []
+}
